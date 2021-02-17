@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Covid Track</string>
+    <string name="as_value">Ascending Confirmed Case</string>
+    <string name="ds_value">Descending Confirmed Case</string>
+    <string name="info">You can get all information about Covid 19 pandemic from here.</string>
+    <string name="info1">Stay healthy, Stay Safe!</string>
+
+</resources>

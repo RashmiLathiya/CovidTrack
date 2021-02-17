@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7D1FB"
+    tools:context=".Activity.SplashActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="test_gif.json"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_splash"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/newa_button"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="PREVENTION"
+            android:elevation="5dp"
+            android:textSize="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to"
+            android:textColor="#6A6A6A"
+            android:textSize="20dp"
+            android:paddingTop="30dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Covid 19 Center"
+            android:textColor="#2B2A2A"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="0dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textColor="#6A6A6A"
+            android:textSize="16dp"
+            android:paddingTop="20dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info1"
+            android:textColor="#705893"
+            android:textSize="16dp"
+            android:paddingTop="5dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp">
+        <LinearLayout
+            android:id="@+id/img"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_button"
+            android:layout_centerHorizontal="true"
+            android:gravity="end"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Get Started"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_gravity="end"
+                android:gravity="center_vertical"
+                android:layout_marginRight="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/girl"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
