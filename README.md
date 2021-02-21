@@ -1,6 +1,6 @@
 # Covid19Track
 
-Get live API Covid-19 data using public API - https://documenter.getpostman.com/view/10808728/SzS8rjbc#00030720-fae3-4c72-8aea-ad01ba17adf8
+Get live Covid-19 data using public API - https://documenter.getpostman.com/view/10808728/SzS8rjbc#00030720-fae3-4c72-8aea-ad01ba17adf8
 
 ![PicsArt_02-17-06 13 03](https://user-images.githubusercontent.com/67590068/108242134-dcc0ad00-714c-11eb-89ef-dc7979412bc3.jpg)
 
